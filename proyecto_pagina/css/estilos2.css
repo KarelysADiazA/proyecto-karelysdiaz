@@ -354,7 +354,35 @@
     "showIndu showInduP"
     "showCantanteP showCantate";
 }
-@media screen and (min-width:720px ) and (max-width: 1023px) {
+.fondoNaranja {
+    background-image: url(../images/Fondo\ naranja.jpg);
+    width: 150%;
+    background-size: cover;
+}
+.tablero{
+    padding: 3%;
+}
+.color {
+    background-color: rgba(253, 254, 255, 0.445);
+    margin: 3%; 
+}
+.fondoNaranja h1 {
+    display: flex;
+    font-size: 18vh;
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 30% ;
+    margin-top: 5%; 
+    text-shadow: #313131 2px 2px 2px ; 
+}
+.fondoNaranja img {
+    width: 50%;
+    display: flex;
+    position: relative;
+    margin-top: -6.4%;
+    left: 22%;
+}
+@media screen and (min-width:520px ) and (max-width: 1023px) {
     .menuDeNavegacion {
         font-size: 4vh; 
         padding-right: 2vh;
@@ -449,6 +477,14 @@
     .showInduP p{
         font-size: 3.5vh;
         margin-right: 7%;
+    }
+    .fondoNaranja h1 {
+        font-size: 7.5vh;
+    }
+    .fondoNaranja img {
+        width: 65%;
+        margin-top: -8.5%;
+        margin-left: -2%;
     }
 }
 @media screen and (min-width: 1024px) {
@@ -561,5 +597,12 @@
         font-size: 4.9vh;
         margin-right: 7%;
     }
-
+    .fondoNaranja h1 {
+        font-size: 9.5vh;
+    }
+    .fondoNaranja img {
+        width: 65%;
+        margin-top: -8.5%;
+        margin-left: -4%;
+    }
 }
