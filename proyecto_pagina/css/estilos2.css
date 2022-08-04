@@ -15,6 +15,7 @@
    align-items:center;
    border-bottom: #000000 solid 1vh;
    border-top: #000000 solid 1vh;
+   background-image: linear-gradient(to left, #ffa400, #e7e1df, #ffffff);
 
    }
 .headerNav img {
@@ -25,7 +26,9 @@
    display: flex;
    justify-content: space-between;
    list-style: none;
-
+}
+.menuN :hover {
+    color: #313131;
 }
 
 .menuDeNavegacion {
