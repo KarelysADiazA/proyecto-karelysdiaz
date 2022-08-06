@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2? family= Edu+SA+Beginner & family= Oswald:wght@300 & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navegacion video{
+    position: absolute;
+    bottom: 0%;
+    z-index: -1;
+}
+@media screen and (min-width:400px)
+{
+    .navegacion video {
+        width: auto;
+        height: auto;
+        top: -0%;
+    }
+}
