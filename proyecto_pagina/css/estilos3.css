@@ -52,6 +52,47 @@
 footer i {
    width: 50%;
 }
+.origenFondo {
+    background-image: linear-gradient(to top, #fbfdff, #c2c4c5, #8c8f8e, #5b5c5b, #2e2e2d);
+    background-size:cover;
+}
+.uno {
+    background-color: #2e2e2d79;
+}
+.dos {
+    background-color: rgba(202, 106, 37, 0.404);
+}
+.tres {
+    background-color: #5b5c5b6b;
+}
+.cajaUno {
+    font-family:'Oswald', sans-serif;
+    font-size: 5vh;
+    font-weight: bold;
+    text-decoration: underline 1px solid #8c8f8e;
+}
+.cajaUnoP {
+    font-size: 2.5vh;
+    text-shadow: #f7f3c2 2px 2px 2px;
+    font-family: 'Edu SA Beginner', cursive;
+}
+.cajados {
+    background-color: #363e49 ;
+    border-radius: 30px;
+    padding: 1px;
+}
+.cajaDos {
+    font-size: 8vh;
+    color: transparent;
+    font-family:'Oswald', sans-serif;
+    text-decoration: underline 1px #858585;
+    -webkit-text-stroke: #fbfdff 2px;
+}
+.cajaDosP {
+    font-size: 3.5vh;
+    color: #c2c4c5;
+    padding: 15px;
+}
 @media screen and (min-width:500px) and (max-width:900px)
 {
     .navegacion video {
@@ -80,6 +121,14 @@ footer i {
         margin-top: 12%;
         font-size: 6vh;
         margin-left: 2%;
+    }
+    .cajaDos {
+        margin-top: 1%;
+        font-size: 6vh;
+        padding: 2px;
+    }
+    .cajaDosP {
+        font-size: 3vh;
     }
 }
 @media screen and (min-width:901px) and (max-width: 1200px) {
