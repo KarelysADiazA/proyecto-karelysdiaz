@@ -93,6 +93,116 @@ footer i {
     color: #c2c4c5;
     padding: 15px;
 }
+.ladies {
+    background-color: rgb(255, 228, 187);
+}
+.ladies h1 {
+    font-family: 'Edu SA Beginner', cursive;
+    font-weight: bolder;
+     height: 170px;
+    padding-top: 7%;
+    font-size: 8vh;
+    color: transparent;
+    -webkit-text-stroke: #000000 3px;
+}
+.primerImg h2 {
+  position: absolute;
+  margin-top: -20%;
+  margin-left: 25%;
+  color: white;
+  font-family: 'Edu SA Beginner', cursive;
+  font-size: 7vh;
+  text-decoration: underline 1px white;
+}
+.primerImg p {
+    position: absolute;
+    margin-top: -15%;
+    color: white;
+    margin-left: 25%;
+    font-size: 3.5vh;
+    font-family:'Oswald', sans-serif;
+}
+.parrafoStaff {
+    font-size: 3.7vh;
+    margin-bottom: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.Staff {
+    font-size: 7vh;
+    text-decoration: underline 1px black;
+    font-family: 'Edu SA Beginner', cursive;
+    text-shadow: #8c8f8e 2px 2px 2px;
+}
+.fondoG {
+    background-image: linear-gradient(to left bottom, #676767, #4d4d4d, #353535, #1f1f1f, #030303);
+    background-size:cover;
+    size:100%;
+}
+.S {
+    position: absolute;
+    color: transparent;
+    -webkit-text-stroke: white 3px;
+    font-size: 12vh;
+    margin-top: -50%;
+    margin-left: 5%;
+}
+.H {
+    position: absolute;
+    color: transparent;
+    -webkit-text-stroke: white 3px;
+    font-size: 12vh;
+    margin-top: -45%;
+    margin-left: 10%;
+}
+.O {
+    position: absolute;
+    color: transparent;
+    -webkit-text-stroke: white 3px;
+    font-size: 12vh;
+    margin-top: -40%;
+    margin-left: 15%;
+}
+.W {
+    position: absolute;
+    color: transparent;
+    -webkit-text-stroke: white 3px;
+    font-size: 12vh;
+    margin-top: -35%;
+    margin-left: 20%;
+}
+.SD {
+    position: absolute;
+    color: transparent;
+    -webkit-text-stroke: white 3px;
+    font-size: 12vh;
+    margin-top: -30%;
+    margin-left: 26%;
+}
+.fuegoimg {
+   margin-left: 20%;
+    box-shadow: #4d4d4d 2px 2px 2px;
+}
+.cantanteImg {
+    margin-left: 20%;
+    box-shadow: #4d4d4d 2px 2px 2px;
+}
+.grupoBailarines {
+    margin-left: 20%;
+    box-shadow: #4d4d4d 2px 2px 2px;
+}
+.cotiza {
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke: lemonchiffon 3px;
+}
+.tablaCotiza {
+    border-radius: 50px;
+}
+.botones {
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
 @media screen and (min-width:500px) and (max-width:900px)
 {
     .navegacion video {
@@ -129,6 +239,36 @@ footer i {
     }
     .cajaDosP {
         font-size: 3vh;
+    }
+    .ladies h1 {
+        padding-top:15%;
+    }
+    .primerImg h2 {
+        font-size: 3vh;
+    }
+    .primerImg p {
+        font-size: 2vh;
+    }
+    .Staff {
+        font-size: 5.5vh;
+    }
+    .parrafoStaff {
+        font-size: 2.5vh;
+    }
+    .S {
+        font-size: 7vh;
+    }
+    .H {
+        font-size: 7vh;
+    }
+    .O {
+        font-size: 7vh;
+    }
+    .W{
+        font-size: 7vh;
+    }
+    .SD {
+        font-size: 7vh;
     }
 }
 @media screen and (min-width:901px) and (max-width: 1200px) {
